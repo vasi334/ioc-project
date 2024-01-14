@@ -1,38 +1,38 @@
 import React from 'react';
 import './girafa.css';
+import { Link } from 'react-router-dom';
+
 
 export default function Main() {
   return (
     <div className='main-container'>
       <div className='header'>
-        <button className='buttonu-magic-basic'>
-          <span className='text'>Acasă</span>
-        </button>
-        <button className='buttonu-magic-basic-1'>
-          <span className='text-2'>Înainte</span>
-        </button>
+      <Link to='/page2'>
         <button className='buttonu-magic-basic-3'>
-          <span className='text-4'>Înapoi</span>
-        </button>
+            <span className='text-4'>Animale</span>
+        </button> 
+      </Link>
+      <Link to='/'>
         <button className='buttonu-magic-basic-5'>
-          <span className='animale'>Animale</span>
-        </button>
+          <span className='animale'>Acasa</span>
+        </button> 
+      </Link>
       </div>
       <div className='flex-row-eaad'>
         <span className='aceasta-este-o'>Aceasta este o </span>
         <span className='rafa'>....RAFĂ</span>
         <div className='girafa-6' />
-        <button className='frame'>
-          <span className='ge'>GE</span>
+        <button className='ci-button'>
+            <span className='ci'> CI </span>
         </button>
-        <div className='frame-7'>
-          <span className='gi'>GI</span>
-        </div>
-        <button className='frame-button'>
-          <span className='span-ci'>CI</span>
+        <button className='gi-button'>
+            <span className='gi'> GI </span>
         </button>
         <button className='frame-button-8'>
           <span className='span-ghe'>GHE</span>
+        </button>
+        <button className='ghi-button'>
+            <span className='ghi'> GHI </span>
         </button>
         <div className='div-rectangle'>
           <div className='div'>
