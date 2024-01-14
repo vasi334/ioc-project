@@ -1,22 +1,21 @@
 import React from 'react';
 import './ghepard.css';
+import {Link} from "react-router-dom";
 
 export default function Main() {
   return (
     <div className='main-container'>
       <div className='header'>
-        <button className='buttonu-magic-basic'>
-          <span className='text'>Acasă</span>
-        </button>
-        <button className='buttonu-magic-basic-1'>
-          <span className='text-2'>Înainte</span>
-        </button>
-        <button className='buttonu-magic-basic-3'>
-          <span className='text-4'>Înapoi</span>
-        </button>
-        <button className='buttonu-magic-basic-5'>
-          <span className='text-6'>Animale</span>
-        </button>
+        <Link to='/page2'>
+          <button className='buttonu-magic-basic-3'>
+            <span className='text-4'>Animale</span>
+          </button>
+        </Link>
+        <Link to='/'>
+          <button className='buttonu-magic-basic-5'>
+            <span className='animale'>Acasa</span>
+          </button>
+        </Link>
       </div>
       <div className='flex-row-ce'>
         <span className='acesta-este-un'>Acesta este un </span>
