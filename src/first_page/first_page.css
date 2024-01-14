@@ -23,11 +23,12 @@ button {
 
 .main-container {
   position: relative;
-  width: 1440px;
-  height: 1024px;
+  height: 100%;
+  width: 100%;
   margin: 0 auto;
   font-size: 0px;
 }
+
 .zoo {
   display: flex;
   align-items: flex-start;
@@ -122,11 +123,69 @@ button {
 }
 .fundal {
   position: absolute;
-  width: 1440px;
-  height: 1024px;
+  width: 100%;
+  height: 100%;
   top: 0;
   left: 0;
   background: url(../assets/images/07e9ea31f0209151c53450cae5060d7fce82d382.png)
     no-repeat center;
   background-size: cover;
 }
+
+.start-button-wrapper{
+  margin:5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.start-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 218px;
+  height: 80px;
+  border: 0;
+  border-radius: 20px;
+  color: #ffefdc;
+  font-family: Judson, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.52px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 5;
+  background-color: #a7561b;
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  top: 0;
+  text-align: center;
+  z-index: 1;
+  background-color: #a7561b;
+  opacity: 35%;
+}
+
+.text{
+  position: relative;
+  display: flex;
+  transform: translateY(20%);
+  left: 45%;
+  font-family: Judson, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  top: 15%;
+  opacity: 100%;
+  z-index: 2;
+  color:#a7561b;
+}
+
+
