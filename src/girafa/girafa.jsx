@@ -49,7 +49,7 @@ export default function Main() {
           </div>
         </div>
         <div className='rectangle' />
-        <span className='x-x-kg'>50 x 12 x 2 kg</span>
+        <span className='x-x-kg'>50 x 10 x 2 kg</span>
       </div>
       <div className='flex-row-d'>
         <button className='frame-b'>
