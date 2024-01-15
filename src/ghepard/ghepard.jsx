@@ -1,28 +1,27 @@
 import React from 'react';
 import './ghepard.css';
+import {Link} from "react-router-dom";
 
 export default function Main() {
   return (
     <div className='main-container'>
-      <div className='header'>
-        <button className='buttonu-magic-basic'>
-          <span className='text'>Acasă</span>
-        </button>
-        <button className='buttonu-magic-basic-1'>
-          <span className='text-2'>Înainte</span>
-        </button>
-        <button className='buttonu-magic-basic-3'>
-          <span className='text-4'>Înapoi</span>
-        </button>
-        <button className='buttonu-magic-basic-5'>
-          <span className='text-6'>Animale</span>
-        </button>
+      <div className='nav-bar'>
+        <Link to='/page2'>
+          <button className='buttonu-magic-basic-3'>
+            <span className='text-4'>Animale</span>
+          </button>
+        </Link>
+        <Link to='/'>
+          <button className='buttonu-magic-basic-5'>
+            <span className='animale'>Acasa</span>
+          </button>
+        </Link>
       </div>
       <div className='flex-row-ce'>
         <span className='acesta-este-un'>Acesta este un </span>
         <span className='pard'>....PARD</span>
         <div className='ghepard-7' />
-        <button className='frame'>
+        <button className='frame-button-1'>
           <span className='ge'>GE</span>
         </button>
         <button className='frame-button'>
@@ -50,19 +49,16 @@ export default function Main() {
         <span className='span-kmh'>578-463 km/h</span>
       </div>
       <div className='div-flex-row'>
-        <button className='button-frame'>
-          <div className='div-empty'>
-            <span className='span-empty-b'>116</span>
-            <span className='empty'> </span>
-          </div>
+        <button className='frame-button-c'>
+          <span className='empty-d'>116</span>
         </button>
         <button className='frame-button-c'>
           <span className='empty-d'>123</span>
         </button>
-        <button className='frame-button-e'>
+        <button className='frame-button-c'>
           <span className='empty-f'>115</span>
         </button>
-        <button className='frame-button-10'>
+        <button className='frame-button-c'>
           <span className='empty-11'>125</span>
         </button>
       </div>

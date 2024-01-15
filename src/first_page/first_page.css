@@ -159,6 +159,7 @@ button {
   white-space: nowrap;
   z-index: 5;
   background-color: #a7561b;
+  cursor:pointer;
 }
 
 .nav{
