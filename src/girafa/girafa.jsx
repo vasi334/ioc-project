@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export default function Main() {
   return (
     <div className='main-container'>
-      <div className='header'>
+      <div className='nav-bar'>
       <Link to='/page2'>
         <button className='buttonu-magic-basic-3'>
             <span className='text-4'>Animale</span>

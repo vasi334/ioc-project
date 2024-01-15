@@ -31,6 +31,15 @@ button {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
+.nav-bar{
+  position: relative;
+  width: 100%;
+  height: 130px;
+  margin: 0 0 0 0;
+  background: rgba(1, 0, 0, 0.58);
+  z-index: 25;
+  overflow: hidden;
+}
 
 .buttonu-magic-basic {
   display: flex;
@@ -49,6 +58,7 @@ button {
   z-index: 28;
   border-radius: 1000px;
 }
+
 .text {
   display: flex;
   align-items: center;
@@ -701,7 +711,7 @@ button {
   width: 1467px;
   height: 1104px;
   top: 0;
-  left: -9px;
+  left: 1%;
   background: url(../assets/images/797b807c7158102d80d4adb1d36431b119fc6bec.png)
     no-repeat center;
   background-size: cover;

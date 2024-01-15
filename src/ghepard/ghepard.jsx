@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 export default function Main() {
   return (
     <div className='main-container'>
-      <div className='header'>
+      <div className='nav-bar'>
         <Link to='/page2'>
           <button className='buttonu-magic-basic-3'>
             <span className='text-4'>Animale</span>
@@ -21,7 +21,7 @@ export default function Main() {
         <span className='acesta-este-un'>Acesta este un </span>
         <span className='pard'>....PARD</span>
         <div className='ghepard-7' />
-        <button className='frame'>
+        <button className='frame-button-1'>
           <span className='ge'>GE</span>
         </button>
         <button className='frame-button'>
@@ -49,19 +49,16 @@ export default function Main() {
         <span className='span-kmh'>578-463 km/h</span>
       </div>
       <div className='div-flex-row'>
-        <button className='button-frame'>
-          <div className='div-empty'>
-            <span className='span-empty-b'>116</span>
-            <span className='empty'> </span>
-          </div>
+        <button className='frame-button-c'>
+          <span className='empty-d'>116</span>
         </button>
         <button className='frame-button-c'>
           <span className='empty-d'>123</span>
         </button>
-        <button className='frame-button-e'>
+        <button className='frame-button-c'>
           <span className='empty-f'>115</span>
         </button>
-        <button className='frame-button-10'>
+        <button className='frame-button-c'>
           <span className='empty-11'>125</span>
         </button>
       </div>
