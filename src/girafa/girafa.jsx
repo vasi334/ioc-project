@@ -54,7 +54,7 @@ export default function Main() {
       <div className='flex-row-d'>
         <button className='frame-b'>
           <div className='group-3'>
-            <span className='text-f'>1100</span>
+            <span className='text-f'>900</span>
             <span className='nbsp'> </span>
           </div>
         </button>
@@ -62,7 +62,7 @@ export default function Main() {
           <span className='text-11'>600</span>
         </button>
         <button className='frame-button-d'>
-          <span className='span-1200'>1200</span>
+          <span className='span-1200'>1000</span>
         </button>
         <button className='frame-button-e'>
           <span className='span-800'>800</span>
