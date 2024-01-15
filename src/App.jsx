@@ -4,6 +4,7 @@ import Page2 from './second_page/second_page';
 import Girafa from './girafa/girafa';
 import Ghepard from './ghepard/ghepard';
 import Page1 from './first_page/first_page';
+import Rinocer from './rinocer/rinocer';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -30,6 +31,10 @@ export default function App() {
     {
       path: "/girafa",
       element: <Girafa />,
+    },
+    {
+      path: "/rinocer",
+      element: <Rinocer />,
     },
   ])
 
