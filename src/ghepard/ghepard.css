@@ -271,7 +271,7 @@ button {
   white-space: nowrap;
   z-index: 5;
 }
-.frame-button {
+.gi-button-1 {
   display: flex;
   align-items: center;
   justify-content: center;

@@ -24,7 +24,7 @@ export default function Main() {
         <button className='frame-button-1'>
           <span className='ge'>GE</span>
         </button>
-        <button className='frame-button'>
+        <button className='gi-button-1'>
           <span className='span-gi'>GI</span>
         </button>
         <button className='frame-button-8'>

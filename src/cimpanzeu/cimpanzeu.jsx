@@ -19,7 +19,7 @@ export default function Main() {
       </div>
       <div className='flex-row-a'>
         <span className='acesta-este-un-text'>Acesta este un </span>
-        <span className='mpanzeu'>....mpanzeu</span>
+        <span className='mpanzeu'>....MPANZEU</span>
         <div className='cimpanzeu-7' />
         <button className='chi-button'>
             <span className='chi'>CHI</span>
