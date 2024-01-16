@@ -18,7 +18,7 @@ export default function Main() {
                 </Link>
             </div>
             <div className='flex-row'>
-                <span className='acesta-este-un'>Acesta este un </span>
+                <span className='acesta-este-unn'>Acesta este un </span>
                 <span className='ren'>RE....N</span>
                 <div className='rechin-7' />
                 <button className='ge-button'>

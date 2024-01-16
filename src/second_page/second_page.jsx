@@ -18,7 +18,6 @@ export default function Main() {
       </span>
       <div className='section'>
         <Link to='/ghepard'> <div className='img-2' /> </Link>
-        
         <Link to='/rinocer'> <div className='img-3' /> </Link>
         <Link to='/girafa'> <div className='img-4' /> </Link>
         <Link to='/rechin'> <div className='pic' /> </Link>
@@ -52,7 +51,7 @@ export default function Main() {
 
       <div className='box-3'>
         <Link to=''> <div className='img-5' /> </Link>
-        <Link to=''> <div className='img-6' /> </Link>
+        <Link to='/arici'> <div className='img-6' /> </Link>
         <Link to='/cimpanzeu'> <div className='img-7' /> </Link>
         
         
@@ -65,7 +64,7 @@ export default function Main() {
           </Link>
         </div>
         <div className='box-4'>
-          <Link to='/'>
+          <Link to='/arici'>
             <span className='text-8'>Alege animalul</span>
           </Link>
         </div>

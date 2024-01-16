@@ -6,6 +6,7 @@ import Ghepard from './ghepard/ghepard';
 import Page1 from './first_page/first_page';
 import Rinocer from './rinocer/rinocer';
 import Rechin from './rechin/rechin';
+import Arici from './arici/arici'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -40,6 +41,10 @@ export default function App() {
     {
       path: "/rechin",
       element: <Rechin />,
+    },
+    {
+      path: "/arici",
+      element: <Arici />,
     },
   ])
 
