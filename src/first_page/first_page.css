@@ -31,12 +31,12 @@ button {
 
 .zoo {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   position: relative;
   width: 569px;
   height: 172px;
-  margin: 152px 0 0 457px;
+  margin: 152px auto 0;
   color: #c26420;
   font-family: Jomolhari, var(--default-font-family);
   font-size: 128px;
@@ -48,12 +48,12 @@ button {
 }
 .descopera-lumea-fascinanta {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   position: relative;
   width: 601px;
   height: 178px;
-  margin: 9px 0 0 441px;
+  margin: 9px auto;
   color: #a7561b;
   font-family: Judson, var(--default-font-family);
   font-size: 36px;
@@ -183,7 +183,7 @@ button {
   font-family: Judson, var(--default-font-family);
   font-size: 30px;
   font-weight: 500;
-  top: 15%;
+  top: 1%;
   opacity: 100%;
   z-index: 2;
   color:#a7561b;
