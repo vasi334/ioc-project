@@ -5,6 +5,7 @@ import Girafa from './girafa/girafa';
 import Ghepard from './ghepard/ghepard';
 import Page1 from './first_page/first_page';
 import Rinocer from './rinocer/rinocer';
+import Rechin from './rechin/rechin';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -35,6 +36,10 @@ export default function App() {
     {
       path: "/rinocer",
       element: <Rinocer />,
+    },
+    {
+      path: "/rechin",
+      element: <Rechin />,
     },
   ])
 
