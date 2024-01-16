@@ -12,7 +12,7 @@ export default function Main() {
         </button>
       </Link>
       <Link to='/'>
-        <button className='buttonu-acasa'>
+        <button className='buttonu-acasaa'>
             <span className='text-buton-acasa'>Acasă</span>
         </button>
       </Link>

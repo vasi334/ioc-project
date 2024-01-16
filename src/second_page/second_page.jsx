@@ -50,7 +50,7 @@ export default function Main() {
       </div>
 
       <div className='box-3'>
-        <Link to=''> <div className='img-5' /> </Link>
+        <Link to='/cincila'> <div className='img-5' /> </Link>
         <Link to='/arici'> <div className='img-6' /> </Link>
         <Link to='/cimpanzeu'> <div className='img-7' /> </Link>
         
@@ -59,7 +59,7 @@ export default function Main() {
       </div>
       <div className='group-2'>
         <div className='group-rabbit'>
-          <Link to='/'>
+          <Link to='/cincila'>
             <span className='text-7'>Alege animalul</span>
           </Link>
         </div>
