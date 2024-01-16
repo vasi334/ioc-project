@@ -156,7 +156,7 @@ button {
   white-space: nowrap;
   z-index: 33;
 }
-.buttonu-acasa {
+.buttonu-acasaa {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -168,7 +168,7 @@ button {
   top: 35px;
   left: 335px;
   cursor: pointer;
-  background: linear-gradient(180deg, #b9c989, #b6c688);
+  background: linear-gradient(180deg, #b6c688, #b6c688);
   border: none;
   z-index: 34;
   border-radius: 1000px;
