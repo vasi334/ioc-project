@@ -31,18 +31,18 @@ button {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
-.fundal-rechin {
+.fundal-arici {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: -9px;
-    background: url(../assets/images/1e49f-5b16310d-d40e-9f28-239791333a61.png)
+    background: url(../assets/images/e94e1f-536b1310d-40e9-2f98-139793316a61.png)
     no-repeat center;
     background-size: cover;
     filter: blur(2px);
 }
-.navi-bar {
+.navii-bar {
     position: relative;
     width: 100%;
     height: 130px;
@@ -68,7 +68,7 @@ button {
     z-index: 28;
     border-radius: 1000px;
 }
-.text-button-acasa {
+.text-buton-acasaa {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,7 +121,7 @@ button {
     white-space: nowrap;
     z-index: 31;
 }
-.button-animal {
+.buton-animal {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -133,12 +133,12 @@ button {
     top: 35px;
     left: 910px;
     cursor: pointer;
-    background: linear-gradient(180deg, #4DA7CD, #C2DEED);
+    background: linear-gradient(180deg, #AD992B, #FFF2C5);
     border: none;
     z-index: 32;
     border-radius: 1000px;
 }
-.text-button-animal {
+.text-buton-animall {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,7 +156,7 @@ button {
     white-space: nowrap;
     z-index: 33;
 }
-.button-acasa {
+.buton-acasa {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -168,7 +168,7 @@ button {
     top: 35px;
     left: 335px;
     cursor: pointer;
-    background: linear-gradient(180deg, #4DA7CD, #C2DEED);
+    background: linear-gradient(180deg, #AD992B, #FFF2C5);
     border: none;
     z-index: 34;
     border-radius: 1000px;
@@ -191,14 +191,14 @@ button {
     white-space: nowrap;
     z-index: 35;
 }
-.flex-row-aa {
+.flex-row {
     position: relative;
     width: 1327px;
     height: 702px;
     margin: 13px 0 0 43px;
     z-index: 25;
 }
-.acesta-este-unn {
+.acesta-este-unnn {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -207,7 +207,7 @@ button {
     height: 86px;
     top: 0;
     left: 0;
-    color: #020E15;
+    color: #4C2102;
     font-family: Judson, var(--default-font-family);
     font-size: 50px;
     font-weight: 700;
@@ -216,7 +216,7 @@ button {
     white-space: nowrap;
     z-index: 2;
 }
-.ren {
+.ari {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -225,7 +225,7 @@ button {
     height: 144px;
     top: 43px;
     left: 362px;
-    color: #020E15;
+    color: #4C2102;
     font-family: Judson, var(--default-font-family);
     font-size: 96px;
     font-weight: 700;
@@ -234,13 +234,13 @@ button {
     white-space: nowrap;
     z-index: 3;
 }
-.rechin-7 {
+.arici-7 {
     position: absolute;
     width: 467px;
     height: 618px;
     top: 60px;
     left: 860px;
-    background: url(../assets/images/2fbf7a18-6c8d-4348-95b9-309e63cf4968.png)
+    background: url(../assets/images/95a686d0-0287-4fd8-bea2-547b63ad87a4.png)
     no-repeat center;
     background-size: cover;
     border: 10px solid #f5f5f5;
@@ -264,7 +264,7 @@ button {
     z-index: 4;
     border-radius: 20px;
 }
-.ge-button {
+.gi-buttonn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -276,14 +276,14 @@ button {
     top: 182px;
     left: 10px;
     padding: 10px 10px 10px 10px;
-    background: #D6EFFB;
+    background: #FBE1B1;
     z-index: 25;
     border-radius: 20px;
     border:0;
     cursor:pointer;
 }
 
-.ge-text {
+.gi-textt {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -292,7 +292,7 @@ button {
     position: relative;
     width: 61px;
     height: 74px;
-    color: #020E15;
+    color: #4C2102;
     font-family: Judson, var(--default-font-family);
     font-size: 64px;
     font-weight: 700;
@@ -301,7 +301,7 @@ button {
     white-space: nowrap;
     z-index: 26;
 }
-.gi-buton {
+.ghi-buton {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -313,13 +313,13 @@ button {
     top: 182px;
     left: 221px;
     padding: 10px 10px 10px 10px;
-    background: #D6EFFB;
+    background: #FBE1B1;
     border: none;
     z-index: 25;
     border-radius: 20px;
     cursor:pointer;
 }
-.gi-span {
+.ghi-span {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -328,7 +328,7 @@ button {
     position: relative;
     width: 61px;
     height: 74px;
-    color: #020E15;
+    color: #4C2102;
     font-family: Judson, var(--default-font-family);
     font-size: 64px;
     font-weight: 700;
@@ -337,7 +337,7 @@ button {
     white-space: nowrap;
     z-index: 26;
 }
-.ghe-button {
+.ci-buttonn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -350,12 +350,12 @@ button {
     left: 641px;
     padding: 10px 10px 10px 10px;
     cursor: pointer;
-    background: #D6EFFB;
+    background: #FBE1B1;
     border: none;
     z-index: 14;
     border-radius: 20px;
 }
-.ghe-text {
+.ci-textt {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -364,7 +364,7 @@ button {
     position: relative;
     width: 69px;
     height: 74px;
-    color: #020E15;
+    color: #4C2102;
     font-family: Judson, var(--default-font-family);
     font-size: 64px;
     font-weight: 700;
@@ -373,7 +373,7 @@ button {
     white-space: nowrap;
     z-index: 15;
 }
-.chi-buton {
+.ce-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -386,12 +386,12 @@ button {
     left: 429px;
     padding: 10px 10px 10px 10px;
     cursor: pointer;
-    background: #D6EFFB;
+    background: #FBE1B1;
     border: none;
     z-index: 16;
     border-radius: 20px;
 }
-.chi-text {
+.ce-textt {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -400,7 +400,7 @@ button {
     position: relative;
     width: 61px;
     height: 74px;
-    color: #020E15;
+    color: #4C2102;
     font-family: Judson, var(--default-font-family);
     font-size: 64px;
     font-weight: 700;
@@ -410,13 +410,13 @@ button {
     z-index: 17;
 }
 
-.div-rectangl {
+.div-rectangl1 {
     position: absolute;
     width: 773px;
     height: 218px;
     top: 323px;
     left: 0;
-    background: url(../assets/images/c60a260b-7956-24fc-865d-bcf679b3f3f5.png)
+    background: url(../assets/images/4ef516b1-30bd-40de-982f-22793391a6e3.png)
     no-repeat center;
     background-size: cover;
     z-index: 18;
@@ -452,7 +452,7 @@ button {
     line-height: 41.696px;
     text-align: center;
 }
-.empty-spac {
+.empty-space1 {
     position: relative;
     color: #4c2102;
     font-family: Inika, var(--default-font-family);
@@ -470,18 +470,18 @@ button {
     line-height: 43.2px;
     text-align: center;
 }
-.rectangle-r {
+.rectangle-a {
     position: absolute;
     width: 454px;
     height: 112px;
     top: 590px;
     left: 130px;
-    background: url(../assets/images/f85a2c-84b0-34ae-29f0-605f3fe57af8.png)
+    background: url(../assets/images/b812d3ca-11ca-4dfd-a9b3-8b54cef6c368.png)
     no-repeat center;
     background-size: cover;
     z-index: 23;
 }
-.multiplication {
+.addition {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -490,23 +490,23 @@ button {
     height: 112px;
     top: 0;
     left: 54px;
-    color: #020E15;
+    color: #4C2102;
     font-family: Judson, var(--default-font-family);
-    font-size: 86px;
+    font-size: 96px;
     font-weight: 700;
     line-height: 111.648px;
     text-align: center;
     white-space: nowrap;
     z-index: 24;
 }
-.flex-roww {
+.flex-row1 {
     position: relative;
     width: 771px;
     height: 84px;
     margin: 47px 0 0 50px;
     z-index: 20;
 }
-.frame-rr {
+.frame-aa {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -519,12 +519,12 @@ button {
     right: 632px;
     padding: 10px 22px 10px 18px;
     cursor: pointer;
-    background: #D6EFFB;
+    background: #FBE1B1;
     border: none;
     z-index: 20;
     border-radius: 20px;
 }
-.empty-divv {
+.empty-div1 {
     flex-shrink: 0;
     position: relative;
     width: 136px;
@@ -538,16 +538,16 @@ button {
     white-space: nowrap;
     z-index: 21;
 }
-.span-40 {
+.span-128 {
     position: relative;
-    color: #020E15;
+    color: #4C2102;
     font-family: Judson, var(--default-font-family);
     font-size: 56px;
     font-weight: 700;
     line-height: 74.432px;
     text-align: center;
 }
-.empty-space-1 {
+.empty-space-11 {
     position: relative;
     color: #4c2102;
     font-family: Judson, var(--default-font-family);
@@ -556,7 +556,7 @@ button {
     line-height: 74.432px;
     text-align: center;
 }
-.frame-buton-1 {
+.frame-buton-11 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -569,12 +569,12 @@ button {
     right: 418px;
     padding: 10px 22px 10px 18px;
     cursor: pointer;
-    background: #D6EFFB;
+    background: #FBE1B1;
     border: none;
     z-index: 10;
     border-radius: 20px;
 }
-.span-60 {
+.span-138 {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -583,7 +583,7 @@ button {
     position: relative;
     width: 83px;
     height: 65px;
-    color: #020E15;
+    color: #4C2102;
     font-family: Judson, var(--default-font-family);
     font-size: 56px;
     font-weight: 700;
@@ -592,7 +592,7 @@ button {
     white-space: nowrap;
     z-index: 11;
 }
-.frame-buton-2 {
+.frame-buton-22 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -605,12 +605,12 @@ button {
     right: 203px;
     padding: 10px 22px 10px 18px;
     cursor: pointer;
-    background: #D6EFFB;
+    background: #FBE1B1;
     border: none;
     z-index: 8;
     border-radius: 20px;
 }
-.frame-buton-3 {
+.frame-buton-33 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -623,12 +623,12 @@ button {
     right: 0;
     padding: 10px 22px 10px 18px;
     cursor: pointer;
-    background: #D6EFFB;
+    background: #FBE1B1;
     border: none;
     z-index: 6;
     border-radius: 20px;
 }
-.span-55 {
+.span-148 {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -637,7 +637,7 @@ button {
     position: relative;
     width: 125px;
     height: 72px;
-    color: #020E15;
+    color: #4C2102;
     font-family: Judson, var(--default-font-family);
     font-size: 62px;
     font-weight: 700;
@@ -647,7 +647,7 @@ button {
     z-index: 7;
 }
 
-.div1 {
+.divv1 {
     position: relative;
     width: 759px;
     height: 218px;
@@ -659,9 +659,9 @@ button {
     text-align: center;
     z-index: 19;
 }
-.span1 {
+.spann1 {
     position: relative;
-    color: #020E15;
+    color: #4C2102;
     font-family: Inika, var(--default-font-family);
     font-size: 32px;
     font-weight: 700;
@@ -669,9 +669,9 @@ button {
     text-align: center;
 }
 
-.span-8 {
+.span-7 {
     position: relative;
-    color: #020E15;
+    color: #4C2102;
     font-family: Judson, var(--default-font-family);
     font-size: 36px;
     font-weight: 700;
@@ -679,7 +679,7 @@ button {
     text-align: center;
 }
 
-.span-50 {
+.span-118 {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -688,7 +688,7 @@ button {
     position: relative;
     width: 125px;
     height: 72px;
-    color: #020E15;
+    color: #4C2102;
     font-family: Judson, var(--default-font-family);
     font-size: 62px;
     font-weight: 700;
