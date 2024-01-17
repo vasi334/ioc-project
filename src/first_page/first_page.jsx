@@ -14,7 +14,7 @@ export default function Main() {
         Explorează !
       </span>
       <span className='start-button-wrapper'>
-        <Link to='/page2' style={{ textDecoration: 'none'}}> <button className='start-button'> Sa incepem  </button> </Link>
+        <Link to='/page2' style={{ textDecoration: 'none'}}> <button className='start-button'> Să începem  </button> </Link>
        </span>
       <div className='fundal' />
     </div>

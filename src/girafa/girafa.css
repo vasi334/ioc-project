@@ -719,7 +719,7 @@ button {
 }
 
 
-.frame-button-raspunde {
+.frame-button-raspunde-girafa {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -740,7 +740,7 @@ button {
   cursor: pointer;
 }
 
-.text-raspunde{
+.text-raspunde-girafa{
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -757,4 +757,108 @@ button {
   text-align: center;
   white-space: nowrap;
   z-index: 7;
+}
+.correct-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 40%;
+  height: 40%;
+}
+
+.correct-popup p {
+  margin-bottom: 10px;
+  font-family: Judson, var(--default-font-family);
+  font-size: 56px;
+  color:green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.correct-popup .close-button {
+  background-color: #007bff;
+  border-radius: 100%;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.correct-popup .close-button:hover {
+  background-color: black;
+  transition-duration: 0.5s;
+}
+
+.correct-popup .button-continua{
+  padding: 8px 16px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px; /* Adjust the distance from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Judson, var(--default-font-family);
+  color: white;
+  background-color: #007bff;
+  border: 0;
+  border-radius: 10%;
+}
+
+.correct-popup .button-continua:hover{
+  background-color: green;
+  transition-duration: 0.5s;
+}
+
+.wrong-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 40%;
+  height: 40%;
+}
+
+.wrong-popup p {
+  margin-bottom: 10px;
+  font-family: Judson, var(--default-font-family);
+  font-size: 56px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrong-popup p2 {
+  margin-bottom: 10px;
+  font-family: Judson, var(--default-font-family);
+  font-size: 24px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrong-popup .close-button {
+  background-color: #007bff;
+  border-radius: 100%;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.wrong-popup .close-button:hover {
+  background-color: black;
+  transition-duration: 0.5s;
 }
