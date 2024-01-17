@@ -99,17 +99,17 @@ export default function Main() {
           </div>
         </div>
         <div className='rectangle' />
-        <span className='x-x-kg'>50 x 12 x 2 kg</span>
+        <span className='x-x-kg'>578 + 422</span>
       </div>
       <div className='flex-row-d'>
         <button className='frame-button-e' id='5' onClick={() => handleButtonClick2('5')} style={{ background: activeButton2 == '5'  ? 'yellow' : '#fbe1b1' }}>
-            <span className='span-1200'>1100</span>
+            <span className='span-1200'>105</span>
           </button>
           <button className='frame-button-e' id='6' onClick={() => handleButtonClick2('6')} style={{ background: activeButton2 == '6'  ? 'yellow' : '#fbe1b1' }}>
             <span className='span-1200'>600</span>
           </button>
           <button className='frame-button-e' id='7' onClick={() => handleButtonClick2('7')} style={{ background: activeButton2 == '7'  ? 'yellow' : '#fbe1b1' }}>
-            <span className='span-1200'>1200</span>
+            <span className='span-1200'>1000</span>
           </button>
           <button className='frame-button-e' id='8' onClick={() => handleButtonClick2('8')} style={{ background: activeButton2 == '8'  ? 'yellow' : '#fbe1b1' }}>
             <span className='span-800'>800</span>

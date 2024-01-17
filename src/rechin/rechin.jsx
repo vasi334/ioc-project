@@ -97,7 +97,7 @@ export default function Main() {
                     </div>
                 </div>
                 <div className='rectangle-r'>
-                    <span className='multiplication'>12 x 5 km/h</span>
+                    <span className='multiplication'>34+26 km/h</span>
                 </div>
             </div>
             <div className='flex-roww'>
