@@ -128,9 +128,9 @@ export default function Main() {
       </div>
     
       {isWrongPopupOpen && (
-          <div className="wrong-popup">
+          <div className="wrong">
             <button className='close-button' onClick={switchPopUp}>X</button>
-            <p>Raspuns gresit!</p>
+            <p> Raspuns gresit!</p>
             <p2> Incearca din nou </p2>
           </div>
       )}
