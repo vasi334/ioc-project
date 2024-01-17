@@ -21,16 +21,16 @@ export default function Main() {
         <span className='acesta-este-un-text'>Acesta este un </span>
         <span className='mpanzeu'>....MPANZEU</span>
         <div className='cimpanzeu-7' />
-        <button className='chi-button'>
+        <button className='chi-button' id='1'>
             <span className='chi'>CHI</span>
         </button>
-        <button className='frame-888'>
+        <button className='frame-888' id='2'>
             <span className='ci-text'>CI</span>
         </button>
-        <button className='frame-9'>
+        <button className='frame-9' id='3'>
           <span className='ce-text'>CE</span>
         </button>
-        <button className='frame-a'>
+        <button className='frame-a' id='4'>
           <span className='gi-text'>GI</span>
         </button>
         <div className='div-rectanglee'>
@@ -50,21 +50,23 @@ export default function Main() {
           <span className='percentage'>125-27 %</span>
         </div>
       </div>
-      <div className='flex-row-fa'>
-        <button className='frame-f'>
+      <div className='flex-row-bottom'>
+        <button className='frame-f' id='5'>
           <div className='empty-div'>
             <span className='number'>97</span>
-            <span className='empty-space-10'> </span>
           </div>
         </button>
-        <button className='frame-buttonn'>
+        <button className='frame-buttonn' id='6'>
           <span className='span-98'>98</span>
         </button>
-        <button className='frame-button-11'>
+        <button className='frame-button-11' id='7'>
           <span className='span-999'>99</span>
         </button>
-        <button className='frame-button-12'>
+        <button className='frame-button-12' id='8'>
           <span className='span-100'>100</span>
+        </button>
+        <button className='frame-button-raspunde'>
+          <span className='text-raspunde'>Raspunde</span>
         </button>
       </div>
       <div className='fundal-cimpanzeu' />

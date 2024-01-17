@@ -22,16 +22,16 @@ export default function Main() {
         <span className='aceasta-este-o'>Acesta este un </span>
         <span className='rafa'>RINO...R</span>
         <div className='rinocer-6' />
-        <button className='ci-button'>
+        <button className='ci-button'id='1'>
             <span className='ci'> GE </span>
         </button>
-        <button className='gi-button'>
+        <button className='gi-button'id='2'>
             <span className='gi'> CE </span>
         </button>
-        <button className='frame-button-8'>
+        <button className='frame-button-8'id='3'>
           <span className='span-ghe'> CHE </span>
         </button>
-        <button className='ghi-button'>
+        <button className='ghi-button'id='4'>
             <span className='ghi'> CI </span>
         </button>
         <div className='div-rectangle'>
@@ -51,21 +51,21 @@ export default function Main() {
         <div className='rectangle' />
         <span className='x-x-kg'>210 - 150 km/h</span>
       </div>
-      <div className='flex-row-d'>
-        <button className='frame-b'>
-          <div className='group-3'>
-            <span className='text-f'></span>
-            <span className='nbsp'>65</span>
-          </div>
+      <div className='flex-row-bo'>
+      <button className='frame-button-d'id='5'>
+          <span className='span-1200'>65</span>
         </button>
-        <button className='frame-c'>
-          <span className='text-11'>60</span>
+        <button className='frame-button-d'id='6'>
+          <span className='span-1200'>60</span>
         </button>
-        <button className='frame-button-d'>
+        <button className='frame-button-d'id='7'>
           <span className='span-1200'>70</span>
         </button>
-        <button className='frame-button-e'>
-          <span className='span-800'>50</span>
+        <button className='frame-button-d'id='8'>
+          <span className='span-1200'>50</span>
+        </button>
+        <button className='frame-button-r'>
+          <span className='text-raspunde'>Raspunde</span>
         </button>
       </div>
       <div className='fundal-rinocer' />

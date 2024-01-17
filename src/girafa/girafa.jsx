@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 
 
 export default function Main() {
+
+
+
   return (
     <div className='main-container'>
       <div className='nav-bar'>
@@ -22,16 +25,16 @@ export default function Main() {
         <span className='aceasta-este-o'>Aceasta este o </span>
         <span className='rafa'>....RAFĂ</span>
         <div className='girafa-6' />
-        <button className='ci-button'>
+        <button className='ci-button' id='1'>
             <span className='ci'> CI </span>
         </button>
-        <button className='gi-button'>
+        <button className='gi-button' id='2'>
             <span className='gi'> GI </span>
         </button>
-        <button className='frame-button-8'>
+        <button className='frame-button-8' id='3'>
           <span className='span-ghe'>GHE</span>
         </button>
-        <button className='ghi-button'>
+        <button className='ghi-button' id='4'>
             <span className='ghi'> GHI </span>
         </button>
         <div className='div-rectangle'>
@@ -52,21 +55,21 @@ export default function Main() {
         <span className='x-x-kg'>50 x 12 x 2 kg</span>
       </div>
       <div className='flex-row-d'>
-        <button className='frame-b'>
-          <div className='group-3'>
-            <span className='text-f'>1100</span>
-            <span className='nbsp'> </span>
-          </div>
-        </button>
-        <button className='frame-c'>
-          <span className='text-11'>600</span>
-        </button>
-        <button className='frame-button-d'>
-          <span className='span-1200'>1200</span>
-        </button>
-        <button className='frame-button-e'>
-          <span className='span-800'>800</span>
-        </button>
+        <button className='frame-button-e' id='5'>
+            <span className='span-1200'>1100</span>
+          </button>
+          <button className='frame-button-e' id='6'>
+            <span className='span-1200'>600</span>
+          </button>
+          <button className='frame-button-e' id='7'>
+            <span className='span-1200'>1200</span>
+          </button>
+          <button className='frame-button-e' id='8'>
+            <span className='span-800'>800</span>
+          </button>
+          <button className='frame-button-raspunde'>
+            <span className='text-raspunde'>Raspunde</span>
+          </button>
       </div>
       <div className='fundal-girafa' />
     </div>
