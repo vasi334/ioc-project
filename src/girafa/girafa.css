@@ -792,7 +792,7 @@ button {
 }
 
 .correct-popup .close-button:hover {
-  background-color: red;
+  background-color: black;
   transition-duration: 0.5s;
 }
 
@@ -833,7 +833,7 @@ button {
   margin-bottom: 10px;
   font-family: Judson, var(--default-font-family);
   font-size: 56px;
-  color:red;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -843,7 +843,7 @@ button {
   margin-bottom: 10px;
   font-family: Judson, var(--default-font-family);
   font-size: 24px;
-  color:red;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -859,6 +859,6 @@ button {
 }
 
 .wrong-popup .close-button:hover {
-  background-color: red;
+  background-color: black;
   transition-duration: 0.5s;
 }

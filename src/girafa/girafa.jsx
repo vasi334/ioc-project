@@ -131,7 +131,7 @@ export default function Main() {
         <div className="correct-popup">
           <button className='close-button' onClick={switchPopUp}>X</button>
           <p>Raspuns corect! </p>
-          <Link to='/rinocer'> <button className='button-continua'> Continua </button> </Link>
+          <Link to='/rechin'> <button className='button-continua'> Continua </button> </Link>
         </div>
       )}
       
