@@ -724,7 +724,7 @@ button {
   transition-duration: 0.5s;
 }
 
-.wrong-popup {
+.wrong {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -738,27 +738,27 @@ button {
   height: 40%;
 }
 
-.wrong-popup p {
+.wrong p {
   margin-bottom: 10px;
   font-family: Judson, var(--default-font-family);
   font-size: 56px;
-  color:red;
+  color:black;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.wrong-popup p2 {
+.wrong p2 {
   margin-bottom: 10px;
   font-family: Judson, var(--default-font-family);
   font-size: 24px;
-  color:red;
+  color:black;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.wrong-popup .close-button {
+.wrong .close-button {
   background-color: #007bff;
   border-radius: 100%;
   color: #fff;
@@ -767,7 +767,7 @@ button {
   cursor: pointer;
 }
 
-.wrong-popup .close-button:hover {
+.wrong .close-button:hover {
   background-color: red;
   transition-duration: 0.5s;
 }

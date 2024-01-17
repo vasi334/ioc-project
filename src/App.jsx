@@ -8,6 +8,8 @@ import Rinocer from './rinocer/rinocer';
 import Rechin from './rechin/rechin';
 import Cincila from './cincila/cincila';
 import Arici from './arici/arici';
+import Final from './final_page/final_page';
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -51,6 +53,10 @@ export default function App() {
       path: "/cincila",
       element: <Cincila />,
     },
+    {
+      path: "/final",
+      element: <Final />
+    }
   ])
 
   return (
