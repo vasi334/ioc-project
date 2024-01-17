@@ -21,16 +21,16 @@ export default function Main() {
                 <span className='acesta-este-unnn'>Acesta este un </span>
                 <span className='ari'>ARI....</span>
                 <div className='arici-7' />
-                <button className='gi-buttonn'>
+                <button className='gi-buttonn' id='1'>
                     <span className='gi-textt'>GI</span>
                 </button>
-                <button className='ghi-buton'>
+                <button className='ghi-buton' id='2'>
                     <span className='ghi-span'>GHI</span>
                 </button>
-                <button className='ci-buttonn'>
+                <button className='ci-buttonn' id='3'>
                     <span className='ci-textt'>CI</span>
                 </button>
-                <button className='ce-button'>
+                <button className='ce-button' id='4'>
                     <span className='ce-textt'>CE</span>
                 </button>
                 <div className='div-rectangl1'>
@@ -51,20 +51,20 @@ export default function Main() {
                 </div>
             </div>
             <div className='flex-row1'>
-                <button className='frame-aa'>
-                    <div className='empty-div1'>
-                        <span className='span-128'>128</span>
-                        <span className='empty-space-11'> </span>
-                    </div>
+                <button className='frame-buton-22' id='5'>
+                    <span className='span-118'>128</span>
                 </button>
-                <button className='frame-buton-11'>
+                <button className='frame-buton-11' id='6'>
                     <span className='span-138'>138</span>
                 </button>
-                <button className='frame-buton-22'>
+                <button className='frame-buton-22' id='7'>
                     <span className='span-118'>118</span>
                 </button>
-                <button className='frame-buton-33'>
+                <button className='frame-buton-33' id='8'>
                     <span className='span-148'>148</span>
+                </button>
+                <button className='frame-button-raspunde'>
+                    <span className='text-raspunde'>Raspunde</span>
                 </button>
             </div>
             <div className='fundal-arici' />
