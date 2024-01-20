@@ -4,17 +4,6 @@ import {Link} from "react-router-dom";
 
 export default function Main() {
 
-  /* PENTRU CELELALTE PAGINI
-  
-  - copiati functiile si state-urile scrise aici sus
-      - > trebuie modificate doar raspunsurile corecte in functia switchPopUp - pe pagina asta erau 3 si 7(vedeti id-ul butoanelor)
-
-  - adaugati la butoanele cu raspunsuri ce am adaugat si eu aici: functia de onClick
-  - modificati culorile din functie sa fie corespunzatoare paginilor; cred ca puteti lasa yellow pentru cand butoanele sunt selectate
-  - adaugati onClick la butonul de Raspunde si cele doua pop-ups de mai jos
-  
-  */ 
-
   const [activeButton1, setActiveButton1] = useState(null);
   const [activeButton2, setActiveButton2] = useState(null);
 
@@ -74,7 +63,7 @@ export default function Main() {
         </Link>
         <Link to='/'>
           <button className='buttonu-magic-basic-5'>
-            <span className='animale'>Acasa</span>
+            <span className='animale'>Acasă</span>
           </button>
         </Link>
       </div>
@@ -123,23 +112,23 @@ export default function Main() {
           <span className='empty-11'>125</span>
         </button>
         <button className='frame-button-raspunde' onClick={() => switchPopUp()}>
-          <span className='text-raspunde'>Raspunde</span>
+          <span className='text-raspunde'>Răspunde</span>
         </button>
       </div>
     
       {isWrongPopupOpen && (
           <div className="wrong">
             <button className='close-button' onClick={switchPopUp}>X</button>
-            <p> Raspuns gresit!</p>
-            <p2> Incearca din nou </p2>
+            <p> Răspuns greșit!</p>
+            <p2> Încearcă din nou. </p2>
           </div>
       )}
 
       {isCorrectPopupOpen && (
         <div className="correct-popup">
           <button className='close-button' onClick={switchPopUp}>X</button>
-          <p>Raspuns corect! </p>
-          <Link to='/rinocer'> <button className='button-continua'> Continua </button> </Link>
+          <p>Răspuns corect! </p>
+          <Link to='/rinocer'> <button className='button-continua'> Continuă </button> </Link>
         </div>
       )}
       

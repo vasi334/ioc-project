@@ -114,23 +114,23 @@ export default function Main() {
           <span className='span-100'>100</span>
         </button>
         <button className='frame-button-raspunde' onClick={switchPopUp}>
-          <span className='text-raspunde'>Raspunde</span>
+          <span className='text-raspunde'>Răspunde</span>
         </button>
       </div>
     
       {isWrongPopupOpen && (
           <div className="wrong">
             <button className='close-button' onClick={switchPopUp}>X</button>
-            <p>Raspuns gresit!</p>
-            <p2> Incearca din nou </p2>
+            <p>Răspuns greșit!</p>
+            <p2> Încearcă din nou. </p2>
           </div>
       )}
 
       {isCorrectPopupOpen && (
         <div className="correct-popup">
           <button className='close-button' onClick={switchPopUp}>X</button>
-          <p>Raspuns corect! </p>
-          <Link to='/final'> <button className='button-continua'> Continua </button> </Link>
+          <p>Răspuns corect! </p>
+          <Link to='/final'> <button className='button-continua'> Continuă </button> </Link>
         </div>
       )}
 

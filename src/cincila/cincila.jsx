@@ -63,7 +63,7 @@ export default function Main() {
         </Link>
         <Link to='/'>
           <button className='buttonu-acasa'>
-            <span className='text-acasa'>Acasa</span>
+            <span className='text-acasa'>Acasă</span>
           </button>
         </Link>
       </div>
@@ -90,8 +90,8 @@ export default function Main() {
               <br />
             </span>
             <span className='span-text-cincila'>
-              In salbaticie acest animal se spala in cenusa vulcanica.
-              <br /> El este un animal nocturn, iar ziua doarme pana la
+              În sălbăticie acest animal se spală în cenușă vulcanică.
+              <br /> El este un animal nocturn, iar ziua doarme până la
             </span>
           </div>
         </div>
@@ -112,22 +112,22 @@ export default function Main() {
           <span className='empty-8-cincila'>20</span>
         </button>
         <button className='frame-button-raspunde-cincila' onClick={() => switchPopUp()}>
-          <span className='text-raspunde-cincila'>Raspunde</span>
+          <span className='text-raspunde-cincila'>Răspunde</span>
         </button>
       </div>
       {isWrongPopupOpen && (
           <div className="wrong-popup">
             <button className='close-button' onClick={switchPopUp}>X</button>
-            <p>Raspuns gresit!</p>
-            <p2> Incearca din nou </p2>
+            <p>Răspuns greșit!</p>
+            <p2> Încearcă din nou. </p2>
           </div>
       )}
 
       {isCorrectPopupOpen && (
         <div className="correct-popup">
           <button className='close-button' onClick={switchPopUp}>X</button>
-          <p>Raspuns corect! </p>
-          <Link to='/arici'> <button className='button-continua'> Continua </button> </Link>
+          <p>Răspuns corect! </p>
+          <Link to='/arici'> <button className='button-continua'> Continuă </button> </Link>
         </div>
       )}
       <div className='fundal-cincila' />

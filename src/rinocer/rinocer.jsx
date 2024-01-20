@@ -65,7 +65,7 @@ export default function Main() {
       </Link>
       <Link to='/'>
         <button className='buttonu-magic-basic-5'>
-          <span className='animale'>Acasa</span>
+          <span className='animale'>Acasă</span>
         </button> 
       </Link>
       </div>
@@ -116,23 +116,23 @@ export default function Main() {
           <span className='span-1200'>50</span>
         </button>
         <button className='frame-button-r' onClick={switchPopUp}>
-          <span className='text-raspunde'>Raspunde</span>
+          <span className='text-raspunde'>Răspunde</span>
         </button>
       </div>
 
         {isWrongPopupOpen && (
             <div className="wrong-popup">
               <button className='close-button' onClick={switchPopUp}>X</button>
-              <p>Raspuns gresit!</p>
-              <p2> Incearca din nou </p2>
+              <p>Răspuns greșit!</p>
+              <p2> Încearcă din nou. </p2>
             </div>
         )}
 
         {isCorrectPopupOpen && (
           <div className="correct-popup">
             <button className='close-button' onClick={switchPopUp}>X</button>
-            <p>Raspuns corect! </p>
-            <Link to='/girafa'> <button className='button-continua'> Continua </button> </Link>
+            <p>Răspuns corect! </p>
+            <Link to='/girafa'> <button className='button-continua'> Continuă </button> </Link>
           </div>
         )}
 

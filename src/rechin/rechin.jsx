@@ -114,22 +114,22 @@ export default function Main() {
                     <span className='span-55-rechin'>55</span>
                 </button>
                 <button className='frame-button-raspunde-rechin' onClick={() => switchPopUp()}>
-                    <span className='text-raspunde-rechin'>Raspunde</span>
+                    <span className='text-raspunde-rechin'>Răspunde</span>
                 </button>
             </div>
             {isWrongPopupOpen && (
                <div className="wrong-popup">
                  <button className='close-button' onClick={switchPopUp}>X</button>
-                 <p>Raspuns gresit!</p>
-                 <p2> Incearca din nou </p2>
+                 <p>Răspuns greșit!</p>
+                 <p2> Încearcă din nou. </p2>
                 </div>
             )}
 
             {isCorrectPopupOpen && (
                <div className="correct-popup">
                  <button className='close-button' onClick={switchPopUp}>X</button>
-                 <p>Raspuns corect! </p>
-                 <Link to='/cincila'> <button className='button-continua'> Continua </button> </Link>
+                 <p>Răspuns corect! </p>
+                 <Link to='/cincila'> <button className='button-continua'> Continuă </button> </Link>
                </div>
             )}
             <div className='fundal-rechin' />
